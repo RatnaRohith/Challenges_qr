@@ -9,12 +9,21 @@
 <body>
     <div class="container">
         <div class="box">
+            <div class="Title">
+                <h1>Challenges</h1>
+            </div>
             <div class="search-area">
-                <input type="text" placeholder="Add/Search challenges" class="search-bar">
+                <input type="text" placeholder="Search challenges" class="search-bar">
                 <button class="Search-btn">Search</button>
             </div>
             <div class="filter-items"></div>
             <div class="challenges-list">
+                <div class="add-challenge">
+                    <ul>
+                        <li><input type="checkbox" id="weekly-check"><label for="weekly-check" class="challenge-btn">weekly</label></li>
+                        <li><input type="checkbox" id="daily-check"><button id="daily-check">Daily</button></li>
+                    </ul>
+                </div>
                 <div class="dialy-box">
                     <ul class="daily">
                         <li><p>Challenge 1</p></li>
@@ -25,7 +34,7 @@
                     </ul>
                 </div>
                 <div class="weekly-box">
-                    <ul>
+                    <ul class="weekly">
                         <li><p>Challenge 1</p></li>
                         <li><p>Challenge 2</p></li>
                         <li><p>Challenge 3</p></li>
